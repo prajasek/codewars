@@ -1,6 +1,5 @@
 def likes(names):
-    #your code here
-    
+
     if len(names)>3:
        return ", ".join(names[0:2]) +" and " + str(len(names)-2) +" others like this"
     elif len(names)==3:
