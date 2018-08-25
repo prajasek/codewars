@@ -9,8 +9,7 @@ Why Codewars?
 1. Codewars is one of many websites that lets you practice, solve challenging coding problems in a plethora of languages (I mainly focus on Python and 
 C++).
  
-2. You get to see other people's solutions to understand where you can enhance your coding skills, and to get different methods (some very 
-clever) of solving the same problems. 
+2. You get to see other people's solutions to understand where you can enhance your coding skills, and to learn different methods (some very clever) of solving the same problems. 
 
 3. This is the ultimate way of learning by doing -
 
