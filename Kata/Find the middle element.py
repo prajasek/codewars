@@ -10,5 +10,6 @@ def gimme(input_array):
     input_array.sort()
     return copy.index(input_array[1])
     
-    # or you can do 
+    # Alternate solution:
+    #
     # return input_array.index(sorted(input_array)[1]))
