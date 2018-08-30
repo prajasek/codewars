@@ -5,7 +5,7 @@ def series_sum(n):
     sum1 = sum([1/(1+3*_) for _ in range(0,n)])
     return "{:.2f}".format(sum1)
     
-    # or you can do 
+    # Alternate solution 
     #
     # sum  = 0
     # for _ in range(0,n):
