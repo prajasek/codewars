@@ -1,5 +1,12 @@
 def likes(names):
-
+    # Simulating the names next to Facebook like button. 
+    #
+    # One person :   "A likes this"
+    # 2 people   :   "A and B like this"
+    # 3 people   :   "A, B and C like this"
+    # >3 people  :   "A,B and others like this"
+    
+    
     if len(names)>3:
        return ", ".join(names[0:2]) +" and " + str(len(names)-2) +" others like this"
     elif len(names)==3:
