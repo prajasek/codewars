@@ -1,7 +1,7 @@
 def to_nato(words):
     
     # Translate a string to Pilot's alphabet(NATO phonetic alphabet).  # Each alphabet in the input string will be the starting alphabet
-	# of the NATO code words.
+    # of the NATO code words.
     # 
     # Input: "If you can read"
     # 
@@ -16,18 +16,16 @@ def to_nato(words):
     Sierra, Tango, Uniform, Victor, Whiskey, \
     Xray, Yankee, Zulu"""
     
-	# get the words from the string I copied from wikipedia (too lazy 
-	# to type the whole set of words)
-	nato = [word.strip() for word in nato_string.split(", ")]
+    # get the words from the string I copied from wikipedia (too lazy 
+    # to type the whole set of words)
+    nato = [word.strip() for word in nato_string.split(", ")]
     
     output_string = []
-
     for letter in words:
-	
-        unicode = ord(letter.lower())-97       #0-25 for a-z
+        unicode= ord(letter.lower())-97                    # 0-25 for a-z
         if 0<=unicode<26:    
             output_string.append(nato[unicode])
-        elif ord(letter)!=32:				   #unicode 32 is for whitespace
+        elif ord(letter)!=32:				   # unicode 32 is for whitespace (" ")
             output_string.append(letter)
 			
     return " ".join(output_string)
