@@ -21,6 +21,8 @@ def to_nato(words):
     # to type the whole set of words.
     nato = [word.strip() for word in nato_string.split(", ")]
     
+    # nato = ["Alfa", "Bravo", ...., "Zulu"]
+	
     output_string = []
     for letter in words:
         unicode= ord(letter.lower())-97                    # 0-25 for a-z
