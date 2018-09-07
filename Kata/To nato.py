@@ -5,20 +5,16 @@ def to_nato(words):
     # of the NATO code words.
     # 
     # Input: "If you can read"
-    # 
     # Output: 
     # "India Foxtrot Yankee Oscar Uniform Charlie Alfa 
     # November Romeo Echo Alfa Delta"
+   
+    nato_string = """Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo,\
+    Lima, Mike, November, Oscar, Papa, Quebec, Romeo,Sierra, Tango, Uniform, Victor, Whiskey,Xray, Yankee, Zulu"""
     
-     
-    nato_string = """Alfa, Bravo, Charlie, Delta, Echo, \
-    Foxtrot, Golf, Hotel, India, Juliett, Kilo,\
-    Lima, Mike, November, Oscar, Papa, Quebec, Romeo, \
-    Sierra, Tango, Uniform, Victor, Whiskey, \
-    Xray, Yankee, Zulu"""
-    
-    # get the words from the string I copied from wikipedia (above), since I am too lazy 
-    # to type the whole set of words.
+    # get the words from the string I copied from wikipedia (above- I was too lazy 
+    # to type the whole set of words in quotes)
+	
     nato = [word.strip() for word in nato_string.split(", ")]
     
     # nato = ["Alfa", "Bravo", ...., "Zulu"]
