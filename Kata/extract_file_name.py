@@ -1,17 +1,16 @@
 class FileNameExtractor:
     
-	#Inputs:
-	#1231231223123131_FILE_NAME.EXTENSION.OTHEREXTENSION
-	#1_This_is_an_otherExample.mpg.OTHEREXTENSIONadasdassdassds34
-	#1231231223123131_myFile.tar.gz2
+	# Inputs:
+        # ----------------
+	# 1231231223123131_FILE_NAME.EXTENSION.OTHEREXTENSION
+	# 1_This_is_an_otherExample.mpg.OTHEREXTENSIONadasdassdassds34
+	# 1231231223123131_myFile.tar.gz2
 
-	#Outputs
-	#FILE_NAME.EXTENSION
-	#This_is_an_otherExample.mpg
-	#myFile.tar
-	
-	
-	
+	# Outputs
+	# --------------
+	# FILE_NAME.EXTENSION
+	# This_is_an_otherExample.mpg
+	# myFile.tar
 	
 	def extract_file_name(dirty_file_name):
         split_name = dirty_file_name.split(".")
