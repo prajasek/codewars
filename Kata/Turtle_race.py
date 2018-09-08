@@ -14,15 +14,17 @@ def race(v1, v2, g):
     # d/v1 = (d+g)/v2
     # d*v2 = x*v1 + g*v1
     # d = g*v1 / v2-v1
-    # time = x/v1 
+    # time = x/v1    
     
     if v1>=v2 : return None
    
     distance = g*v1 / (v2-v1)
-    time = distance / v1
-    print (distance, time)
+    time = distance / v1        # in hours
+
     hours = int(distance // v1)
     mins = int(time*60%60)
     secs = int(time*3600%60)
-    print([hours,mins,secs])
+
     return [hours,mins,secs]
+
+    # 0.50000 returns [0, 30, 0]
