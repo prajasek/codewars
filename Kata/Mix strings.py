@@ -37,4 +37,4 @@ def mix(s1, s2):
                 else:
                     count.append("=:" + str(letter_2)*s2.count(letter_2))
     count = list(set(count))
-    return "/".join(count)
+    return "/".join(count) 
