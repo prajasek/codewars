@@ -11,7 +11,7 @@ C++).
  
 2. You get to see other people's solutions to understand where you can enhance your coding skills, and to learn different methods (some very clever) of solving the same problems. 
 
-3. This is the ultimate way of learning by doing -
+3. Learning by doing -
 
          Solve a problem -> See others' solutions ->  Know that you are surrounded by much smarter people than you ->
          Learn from them on how to code better -> Repeat.
